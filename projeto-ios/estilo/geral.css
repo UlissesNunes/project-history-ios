@@ -1,0 +1,79 @@
+
+
+@media screen and (min-width: 768px) {
+
+
+    
+i#menu {
+    display: none;
+}
+
+menu {
+    display: block;
+    background-color: #374e60;
+    
+}
+
+menu ul li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 7px;
+    
+   
+    
+}
+
+menu a#esconder {
+    display: none;
+}
+
+menu a {
+    background-color: var(--cor6);
+    border: none;
+    font-weight: bold;
+   
+    
+}
+
+menu a:hover {
+    transition-duration: 0.7s;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+main {
+    width: 65%;
+    margin: auto;
+   } 
+
+  body {
+    width: 94%;
+  }
+
+div.video > iframe {
+    width: 85%;
+}
+
+img {
+    width: 85%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+div.video {
+    width: 84%;
+    margin: auto;
+    padding-bottom: 50%;
+    padding-right: 20px;
+}
+
+
+body {
+   
+   width: 100%;
+}
+
+}
+

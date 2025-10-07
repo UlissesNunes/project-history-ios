@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+:root {
+
+    --cor1: #374e60 ;
+    --cor2: #0c40c4;
+    --cor3: #a9d7ff;
+    --cor4: #282941;
+    --cor5: #6e9ac1;
+    --cor-branca: #deeffd;
+
+    --fonte-padrao: arial,verdana,sans-serif;
+    --fonte-destaque: "DM Serif Display", serif;
+    --fonte-periferica: "Slabo 27px", serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte-padrao);
+
+}
+
+ body {
+    background-color:var(--cor1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+/* background-color: var(--cor5); */
+
+header {
+    
+    background-image: linear-gradient(to bottom , #6e9ac1 , #354c5e );
+    width: 100%;
+}
+
+header h1 {
+ text-align: center;
+ margin: auto;
+ padding: 20px;
+ color: var(--cor-branca);
+ text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.247);
+ margin-bottom: 0px;
+ font-size: 2.4em;
+ background-image: linear-gradient(to bottom , #6e9ac1 , #374e60 );
+ font-family: var(--fonte-destaque);
+ 
+}
+
+menu {
+    display: none;
+}
+
+menu ul {
+    list-style-type: none;
+   
+}
+ 
+   
+header a {
+    display: block; 
+    text-decoration: none ;
+   color: var(--cor-branca);
+   text-align: center;
+   background-color: #5e84a6;
+   border-top: 2px solid rgba(169, 215, 255, 0.315);
+   font-weight: bold;
+   
+       
+}
+
+header a:hover {
+    background-color: var(--cor-branca);
+    color: var(--cor4);
+}
+
+i#menu {
+    display: block;
+    background-color: #48657e;
+    text-align: center;
+    color: var(--cor-branca);
+}
+
+i#menu:hover {
+    background-color: var(--cor-branca);
+    color: var(--cor4);
+    cursor: pointer;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    width: 80vw;
+   
+}
+
+main h2 {
+    padding: 10px;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 1.6em;
+    color: #131b22;
+    font-family: var(--fonte-destaque);
+    
+}
+
+ p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+    padding: 8px;
+    text-indent: 25px;
+    text-align: justify;
+    
+}
+
+img {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /*width: 99%;*/
+    width: 85%;
+    flex: auto;
+}
+
+div.video {
+    position: relative;
+    background-color: var(--cor5);
+    margin-bottom: 20px;
+    padding: 10;
+    margin: 0px -15px 30px -15px;
+    padding-bottom: 58%;
+}
+
+div.video > iframe {
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    width: 99%;
+    height: 99% ;
+    
+}
+
+p.detalhe {
+    margin-top: 45px;
+    margin-bottom: -1px;
+    font-weight: 500;
+    text-indent: 10px;
+}
+
+aside {
+    background-color: var(--cor1);
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 50px;
+    
+}
+
+aside h3 {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+    margin:  -15px -15px 0px -15px;
+    font-family: var(--fonte-periferica);
+   
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+    margin: 12px;
+    color: var(--cor-branca);
+    
+}
+
+aside > li {
+    text-align: justify;
+   padding: 10px;
+}
+
+hr {
+    margin: 7px;
+}
+
+.none {
+  width: 0px;
+  height: 0px;
+}
+
+footer {
+    padding: 40px;
+    margin-top: 50px;
+    background-image: linear-gradient(to top  , #131b22 40%, #354c5e);
+   
+   
+}
+
+footer p {
+    width: 100%;
+    height: 100%;
+    background-color: #131b22;
+    color: var(--cor-branca);
+    text-align: center;
+    margin-top: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: var(--fonte-periferica);
+}
+
+footer a.footer {
+    margin: 5px;
+    padding: 5px;
+}
+
+span {
+    font-size: 0.8em;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+strong.texto {
+    color: #385367;
+    padding: 2px;
+}
