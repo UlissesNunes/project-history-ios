@@ -238,8 +238,8 @@ hr {
 
 
 .footer-clean {
-    padding: 10px 5%;
-    background: #6a8aa6;
+    padding:  5px;
+    background: #6b87a0;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     border-top: 1px solid #eaeaea;
 }
@@ -259,7 +259,7 @@ hr {
 }
 
 .user-info span {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: #86868b;
 }
 
@@ -275,8 +275,8 @@ hr {
     gap: 8px;
     text-decoration: none;
     color: #0a1b2c;
-    font-size: 0.95rem;
-    font-weight: 500;
+    font-size: 0.8rem;
+    font-weight: 800;
     transition: 0.2s;
 }
 
@@ -291,13 +291,6 @@ hr {
 .nav-link:hover {
     color: #004499;
     opacity: 0.8;
-}
-
-.footer-bar {
-    text-align: center;
-    margin-top: 30px;
-    padding-top: 20px;
-    border-top: 1px solid #f2f2f2;
 }
 
 .footer-bar p {
